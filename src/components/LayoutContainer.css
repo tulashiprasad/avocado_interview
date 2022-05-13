@@ -1,0 +1,97 @@
+ .container {
+     display: grid;
+     width: 1151px;
+     height: 472px;
+     place-items: center;
+     box-shadow: 1px 7px 12px -1px #C4C4C4;
+     background-color: #fff;
+
+ }
+
+ .innerContainer {
+     display: flex;
+     flex-direction: column;
+     border-left: 3px solid #EDEEF2;
+     width: 1132px;
+     height: 445px;
+ }
+
+ .heading {
+     height: 50px;
+     line-height: 50px;
+     border-bottom: 2px solid #EDEEF2;
+     padding-left: 1rem;
+ }
+
+ .upper__container {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     height: 50%;
+     margin-right: auto;
+     margin-left: 225px;
+ }
+
+ .upper__container input,
+ select {
+     width: 400px;
+     height: 40px;
+     margin-left: 50px;
+     border-radius: 5px;
+     outline: 1px solid #C4C4C4;
+     border: none;
+     padding: 5px; 
+     color: #989797;
+ }
+ ::-webkit-input-placeholder {
+    color: #989797;
+
+ }
+
+ .upper__container label,
+ .layout {
+     text-align: end;
+ }
+
+ .lower__container {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     height: 20%;
+     margin-left: 225px;
+
+ }
+
+ .lower__container label {
+     padding-left: 15px;
+ }
+
+ .lower__container input {
+     margin-left: 50px;
+
+ }
+
+ input[type="file"] {
+     margin-left: 70px;
+
+ }
+
+ .btns {
+     margin-left: 325px;
+
+ }
+
+ button {
+     margin: 1rem;
+     padding: 10px;
+     color:#fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ .create {
+     background-color: #0B2243;
+ }
+ .cancel {
+     background-color:#e74a3a ;
+ }
